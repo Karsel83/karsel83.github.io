@@ -30,7 +30,7 @@ github:
 
 
 social:
-  name: 김경빈
+  name: karsel
   email: rudqls0424@gmail.com # change to your email address
   fediverse_handle: # fill in your fediverse handle. E.g. "@username@domain.com"
   links:
@@ -93,7 +93,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:'/assets/Frontier_M.jpg'
+avatar: '/assets/Frontier_M.jpg'
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
