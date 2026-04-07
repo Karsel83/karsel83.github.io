@@ -35,6 +35,7 @@ social:
   fediverse_handle: # fill in your fediverse handle. E.g. "@username@domain.com"
   links:
     - https://github.com/Karsel83 # change to your GitHub homepage
+  rss: false
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
