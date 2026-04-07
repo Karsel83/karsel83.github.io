@@ -1,5 +1,5 @@
 ---
-title: "정보보안 입문: 첫 번째 걸음"
+title: "논문 및 컨퍼런스에 대한 소개글입니다."
 date: 2026-04-06 09:00:00 +0900
 categories: [논문/컨퍼런스, conference-intro]
 tags: []
