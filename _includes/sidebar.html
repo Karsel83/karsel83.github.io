@@ -1,0 +1,52 @@
+<aside id="sidebar" class="d-flex flex-column align-items-end" lang="{{ site.lang }}">
+  <div class="profile-wrapper">
+    <a href="{{ '/' | relative_url }}" id="avatar" class="rounded-circle">
+      {% if site.avatar != empty and site.avatar %}
+        {% capture avatar_url %}
+          {% if site.avatar contains '://' %}
+            {{ site.avatar }}
+          {% else %}
+            {{ site.avatar | relative_url }}
+          {% endif %}
+        {% endcapture %}
+        <img src="{{ avatar_url | strip }}" width="112" height="112" alt="avatar" onerror="this.style.display='none'">
+      {% endif %}
+    </a>
+
+    <h1 class="site-title">
+      <a href="{{ '/' | relative_url }}">Karsel</a>
+    </h1>
+    <p class="site-tagline ps-4 pe-4">{{ site.tagline }}</p>
+  </div>
+
+  <nav class="flex-column flex-grow-1 w-100 ps-0 pb-1">
+    <ul class="nav">
+      {% for tab in site.tabs %}
+        <li class="nav-item{% if page.layout == tab.layout or page.permalink == tab.permalink %} active{% endif %}">
+          <a href="{{ tab.permalink | relative_url }}" class="nav-link">
+            <i class="fa-fw {{ tab.icon }} ml-xl-3 mr-xl-3"></i>
+            <span>{{ tab.title | upcase }}</span>
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </nav>
+
+  <div class="sidebar-bottom d-flex flex-wrap align-items-center w-100">
+    {% unless site.theme_mode %}
+      <button type="button" class="mode-toggle btn" aria-label="Switch Mode">
+        <i class="fas fa-adjust"></i>
+      </button>
+      {% if site.social.links.size > 0 %}
+        <span class="icon-border"></span>
+      {% endif %}
+    {% endunless %}
+
+    {% for link in site.social.links %}
+      <a href="{{ link }}" aria-label="{{ link | split: '/' | last }}"
+        {% unless link contains 'mailto:' %}target="_blank" rel="noopener"{% endunless %}>
+        <i class="{{ site.data.social[forloop.index0].icon }}"></i>
+      </a>
+    {% endfor %}
+  </div>
+</aside>
