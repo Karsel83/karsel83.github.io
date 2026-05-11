@@ -5,8 +5,6 @@ categories: [블로그&기술문서, article, Prompt Injection]
 tags: [LLM Security, AI Security, Prompt Injection, Copilot, EchoLeak, Zero Click Attack]
 ---
 
-# Microsoft Copilot "EchoLeak" Prompt Injection 공격 사건
-
 ## 사건 개요
 
 2025년 공개된 Microsoft 365 Copilot의 “EchoLeak” 취약점은  
