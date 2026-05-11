@@ -141,7 +141,6 @@ tags: [YES24, Ransomware, Service Outage, Backup, Incident Response]
 
 # 참고 자료
 
-- [KISA 보호나라 랜섬웨어 대응 가이드](https://www.boho.or.kr/)
-- [ZDNet Korea 관련 기사](https://zdnet.co.kr/)
-- [보안뉴스 랜섬웨어 분석 기사](https://www.boannews.com/)
-- [전자신문 보안 사고 기사](https://www.etnews.com/)
+- [조선비즈 — 예스24, 두 달 만에 또 홈페이지 먹통 ]( https://biz.chosun.com/distribution/channel/2025/08/11/LDT336MN6JAKRAD7JPH55GY7MM/)
+- [전자신문 — 랜섬웨어 공격에 사흘째 멈춘 예스24 ](  https://www.etnews.com/20250611000246)
+- [연합뉴스 — KISA, 예스24 해킹 사고 조사 착수](https://www.yna.co.kr/view/AKR20250811053900017)
