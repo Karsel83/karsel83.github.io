@@ -5,7 +5,7 @@ categories: [논문/컨퍼런스, conference, MOT, Digital Forensics]
 tags: [MOT, Multi-Object Tracking, Digital Forensics, Video Forensics, ByteTrack, OC-SORT, StrongSORT, BoT-SORT, MOT17]
 ---
 
-- **원문 PDF**: [다운로드](/assets/pdf/2026-mot-forensic-comparison.pdf)
+**원문 PDF**: [다운로드](/assets/pdf/2026-mot-forensic-comparison.pdf)
 
 ## 요약
 
